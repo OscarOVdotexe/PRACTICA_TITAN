@@ -1,0 +1,715 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5662f43b-62c9-4990-b7b6-06a0388e062e")
+	(paper "A4")
+	(lib_symbols
+		(symbol "SamacSys_Parts:XT30UPB-M"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "XT30UPB-M"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "SHDR2W160P0X500_1X2_1020X520X1070P"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "10.7"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Amass"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "XT30UPB-M"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 16.51 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 16.51 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "XT30UPB-M_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 227.33 91.44) (xy 196.85 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3572c122-6c5c-4b75-a88b-6b39b63ee395")
+	)
+	(wire
+		(pts
+			(xy 151.13 113.03) (xy 151.13 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "366a58f7-644e-4ab8-9772-aa6f006674e7")
+	)
+	(wire
+		(pts
+			(xy 196.85 83.82) (xy 227.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e288e0-42fc-4082-9f26-d88af393fc6a")
+	)
+	(wire
+		(pts
+			(xy 144.78 83.82) (xy 163.83 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4db5438f-f8cd-43a6-919a-fdbf37b8bbfa")
+	)
+	(wire
+		(pts
+			(xy 227.33 83.82) (xy 227.33 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f5bf8b9-d341-425b-afd2-fc82cb94b2f6")
+	)
+	(wire
+		(pts
+			(xy 64.77 63.5) (xy 73.66 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e8cf2d-33ac-4a82-9942-10a43c4c5cf5")
+	)
+	(wire
+		(pts
+			(xy 73.66 76.2) (xy 68.58 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64e4bf00-0794-40ff-a6b0-5e3eeb67b5c9")
+	)
+	(wire
+		(pts
+			(xy 133.35 119.38) (xy 144.78 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806b41d4-c1c3-4818-b729-0f4527eeb3c0")
+	)
+	(wire
+		(pts
+			(xy 144.78 119.38) (xy 144.78 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb753bd-e594-49a0-a12e-6419303787ef")
+	)
+	(wire
+		(pts
+			(xy 64.77 113.03) (xy 64.77 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1fe9afe-bf4c-49ad-a96b-a31db34fcaae")
+	)
+	(wire
+		(pts
+			(xy 227.33 88.9) (xy 227.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf9eb21-fb82-4756-8837-a58f65919990")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 68.58 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2ea113f-aa34-4e6d-828e-769f1f0353ba")
+	)
+	(wire
+		(pts
+			(xy 102.87 113.03) (xy 64.77 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccdb0cf1-afaf-4a7b-a570-c3aa972d7b51")
+	)
+	(wire
+		(pts
+			(xy 151.13 90.17) (xy 163.83 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef745bd6-5a5a-430c-9664-02a0a21fe99a")
+	)
+	(wire
+		(pts
+			(xy 68.58 118.11) (xy 102.87 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef89ba39-ff0b-471d-8359-3ea2c71588cd")
+	)
+	(wire
+		(pts
+			(xy 133.35 113.03) (xy 151.13 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f812cc0d-4a22-41c7-9369-2e0c22f17d89")
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:XT30UPB-M")
+		(at 227.33 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa9c3517-4243-40ba-bbb7-21e2f803174a")
+		(property "Reference" "MOTOR1"
+			(at 243.84 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "XT30UPB-M"
+			(at 243.84 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:SHDR2W160P0X500_1X2_1020X520X1070P"
+			(at 243.84 181.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/4acc913878197f8c2e30d4b8cdc47230/XT30UPB%20SPEC.pdf"
+			(at 243.84 281.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Socket; DC supply; XT30; male; PIN: 2; on PCBs; THT; Colour: yellow"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "10.7"
+			(at 243.84 481.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amass"
+			(at 243.84 581.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "XT30UPB-M"
+			(at 243.84 681.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 243.84 781.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 243.84 881.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 243.84 981.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 243.84 1081.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0abfc9b8-3884-4a70-9378-f173f8e9a5f6")
+		)
+		(pin "1"
+			(uuid "26d1ea09-e576-4897-b6e2-db49d21d9a48")
+		)
+		(instances
+			(project "PROYECT T"
+				(path "/5662f43b-62c9-4990-b7b6-06a0388e062e"
+					(reference "MOTOR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 77.47)
+		(size 33.02 26.67)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4f78361b-da38-4266-b17c-782c07029721")
+		(property "Sheetname" "DRIVER"
+			(at 163.83 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "driverconex.kicad_sch"
+			(at 163.83 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "MOTOR_OUT1" output
+			(at 196.85 83.82 0)
+			(uuid "aa4a14c3-cc97-4849-b089-bf4b0a8727e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MOTOR_OUT2" output
+			(at 196.85 91.44 0)
+			(uuid "24d3705c-afd9-4e0a-a182-baf284f45a80")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_DER" input
+			(at 163.83 83.82 180)
+			(uuid "4fef30e0-b46a-48ad-b86a-2c0af0b28833")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_IZ" input
+			(at 163.83 90.17 180)
+			(uuid "085ca6f6-ebfd-4563-8de3-ed10cbd66b9a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PROYECT T"
+				(path "/5662f43b-62c9-4990-b7b6-06a0388e062e"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 105.41)
+		(size 30.48 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8154fc82-7ef3-41fc-84e2-8cabc371efcb")
+		(property "Sheetname" "ESPS3"
+			(at 102.87 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "KICADESPCONEX.kicad_sch"
+			(at 102.87 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWM_DER" output
+			(at 133.35 119.38 0)
+			(uuid "ce72da58-f8de-45b1-8ebd-50aa773b9a33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_IZ" output
+			(at 133.35 113.03 0)
+			(uuid "b19084ee-5372-482d-84e6-a16edc31f0ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-V" input
+			(at 102.87 113.03 180)
+			(uuid "0b19c2c4-42e8-4a5f-aa8e-cab217cd4c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD33" input
+			(at 102.87 118.11 180)
+			(uuid "e3059553-c2a4-4875-a14b-a99c44207b98")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PROYECT T"
+				(path "/5662f43b-62c9-4990-b7b6-06a0388e062e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 73.66 44.45)
+		(size 41.91 39.37)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6349e84-f6cc-4554-8dba-153eaebcc8d8")
+		(property "Sheetname" "Alimentacion"
+			(at 73.66 43.7384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "kicad_alimentacion.kicad_sch"
+			(at 73.66 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V3.3" output
+			(at 73.66 76.2 180)
+			(uuid "e88fbb8a-f7e1-4529-bf18-08c531d67926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VUSB" input
+			(at 73.66 63.5 180)
+			(uuid "842c8997-1b9c-4fa1-88a3-d07e459abf72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "PROYECT T"
+				(path "/5662f43b-62c9-4990-b7b6-06a0388e062e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
